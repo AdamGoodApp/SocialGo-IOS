@@ -1,0 +1,542 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		661242991666205900D4001D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 661242981666205900D4001D /* UIKit.framework */; };
+		6612429B1666205900D4001D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6612429A1666205900D4001D /* Foundation.framework */; };
+		6612429D1666205900D4001D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6612429C1666205900D4001D /* CoreGraphics.framework */; };
+		661242A31666205900D4001D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 661242A11666205900D4001D /* InfoPlist.strings */; };
+		661242A51666205900D4001D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 661242A41666205900D4001D /* main.m */; };
+		661242A91666205900D4001D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 661242A81666205900D4001D /* AppDelegate.m */; };
+		661242AB1666205900D4001D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 661242AA1666205900D4001D /* Default.png */; };
+		661242AD1666205900D4001D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 661242AC1666205900D4001D /* Default@2x.png */; };
+		661242AF1666205900D4001D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 661242AE1666205900D4001D /* Default-568h@2x.png */; };
+		661242B21666205900D4001D /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 661242B01666205900D4001D /* MainStoryboard.storyboard */; };
+		661242B51666205900D4001D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 661242B41666205900D4001D /* ViewController.m */; };
+		661242BD1666205900D4001D /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 661242BC1666205900D4001D /* SenTestingKit.framework */; };
+		661242BE1666205900D4001D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 661242981666205900D4001D /* UIKit.framework */; };
+		661242BF1666205900D4001D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6612429A1666205900D4001D /* Foundation.framework */; };
+		661242C71666205900D4001D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 661242C51666205900D4001D /* InfoPlist.strings */; };
+		661242CA1666205900D4001D /* GO_SocialMediaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 661242C91666205900D4001D /* GO_SocialMediaTests.m */; };
+		661242D5166622E300D4001D /* ViewControllersocialgo.m in Sources */ = {isa = PBXBuildFile; fileRef = 661242D4166622E300D4001D /* ViewControllersocialgo.m */; };
+		661242D81666230400D4001D /* ViewControllertechnical.m in Sources */ = {isa = PBXBuildFile; fileRef = 661242D71666230400D4001D /* ViewControllertechnical.m */; };
+		661242DB1666232D00D4001D /* ViewControllerconceptual.m in Sources */ = {isa = PBXBuildFile; fileRef = 661242DA1666232D00D4001D /* ViewControllerconceptual.m */; };
+		661242DE1666234100D4001D /* ViewControllerpractical.m in Sources */ = {isa = PBXBuildFile; fileRef = 661242DD1666234100D4001D /* ViewControllerpractical.m */; };
+		661242E01666479000D4001D /* appback.png in Resources */ = {isa = PBXBuildFile; fileRef = 661242DF1666479000D4001D /* appback.png */; };
+		661242E4166658FA00D4001D /* pen.png in Resources */ = {isa = PBXBuildFile; fileRef = 661242E3166658FA00D4001D /* pen.png */; };
+		661242E61666590100D4001D /* conceptual.png in Resources */ = {isa = PBXBuildFile; fileRef = 661242E51666590100D4001D /* conceptual.png */; };
+		661242E81666590B00D4001D /* technical.png in Resources */ = {isa = PBXBuildFile; fileRef = 661242E71666590B00D4001D /* technical.png */; };
+		661242EA1666591400D4001D /* socialgo.png in Resources */ = {isa = PBXBuildFile; fileRef = 661242E91666591400D4001D /* socialgo.png */; };
+		668778DB167769B1002AADA2 /* low_contrast_linen_@2X.png in Resources */ = {isa = PBXBuildFile; fileRef = 668778DA167769B1002AADA2 /* low_contrast_linen_@2X.png */; };
+		668778E516779179002AADA2 /* technicalrobot.png in Resources */ = {isa = PBXBuildFile; fileRef = 668778E416779179002AADA2 /* technicalrobot.png */; };
+		668778E71677931C002AADA2 /* practicallightbulb.png in Resources */ = {isa = PBXBuildFile; fileRef = 668778E61677931C002AADA2 /* practicallightbulb.png */; };
+		668778E9167797E4002AADA2 /* practicalpencil.png in Resources */ = {isa = PBXBuildFile; fileRef = 668778E8167797E3002AADA2 /* practicalpencil.png */; };
+		668778F11677AB5E002AADA2 /* socialgogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 668778F01677AB5E002AADA2 /* socialgogo.png */; };
+		6694E5401670EA080021B65D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6694E53F1670EA080021B65D /* SystemConfiguration.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		661242C01666205900D4001D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6612428B1666205900D4001D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 661242931666205900D4001D;
+			remoteInfo = "GO!SocialMedia";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		661242941666205900D4001D /* GO!SocialMedia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GO!SocialMedia.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		661242981666205900D4001D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6612429A1666205900D4001D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6612429C1666205900D4001D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		661242A01666205900D4001D /* GO!SocialMedia-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GO!SocialMedia-Info.plist"; sourceTree = "<group>"; };
+		661242A21666205900D4001D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		661242A41666205900D4001D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		661242A61666205900D4001D /* GO!SocialMedia-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GO!SocialMedia-Prefix.pch"; sourceTree = "<group>"; };
+		661242A71666205900D4001D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		661242A81666205900D4001D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		661242AA1666205900D4001D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		661242AC1666205900D4001D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		661242AE1666205900D4001D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		661242B11666205900D4001D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		661242B31666205900D4001D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		661242B41666205900D4001D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		661242BB1666205900D4001D /* GO!SocialMediaTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GO!SocialMediaTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		661242BC1666205900D4001D /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		661242C41666205900D4001D /* GO!SocialMediaTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GO!SocialMediaTests-Info.plist"; sourceTree = "<group>"; };
+		661242C61666205900D4001D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		661242C81666205900D4001D /* GO_SocialMediaTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GO_SocialMediaTests.h; sourceTree = "<group>"; };
+		661242C91666205900D4001D /* GO_SocialMediaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GO_SocialMediaTests.m; sourceTree = "<group>"; };
+		661242D3166622E300D4001D /* ViewControllersocialgo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllersocialgo.h; sourceTree = "<group>"; };
+		661242D4166622E300D4001D /* ViewControllersocialgo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllersocialgo.m; sourceTree = "<group>"; };
+		661242D61666230400D4001D /* ViewControllertechnical.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllertechnical.h; sourceTree = "<group>"; };
+		661242D71666230400D4001D /* ViewControllertechnical.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllertechnical.m; sourceTree = "<group>"; };
+		661242D91666232D00D4001D /* ViewControllerconceptual.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerconceptual.h; sourceTree = "<group>"; };
+		661242DA1666232D00D4001D /* ViewControllerconceptual.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerconceptual.m; sourceTree = "<group>"; };
+		661242DC1666234100D4001D /* ViewControllerpractical.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerpractical.h; sourceTree = "<group>"; };
+		661242DD1666234100D4001D /* ViewControllerpractical.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerpractical.m; sourceTree = "<group>"; };
+		661242DF1666479000D4001D /* appback.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appback.png; sourceTree = "<group>"; };
+		661242E3166658FA00D4001D /* pen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pen.png; sourceTree = "<group>"; };
+		661242E51666590100D4001D /* conceptual.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = conceptual.png; sourceTree = "<group>"; };
+		661242E71666590B00D4001D /* technical.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = technical.png; sourceTree = "<group>"; };
+		661242E91666591400D4001D /* socialgo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = socialgo.png; sourceTree = "<group>"; };
+		66307C3D16763CBB00C8C838 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		668778DA167769B1002AADA2 /* low_contrast_linen_@2X.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "low_contrast_linen_@2X.png"; sourceTree = "<group>"; };
+		668778E416779179002AADA2 /* technicalrobot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = technicalrobot.png; sourceTree = "<group>"; };
+		668778E61677931C002AADA2 /* practicallightbulb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = practicallightbulb.png; sourceTree = "<group>"; };
+		668778E8167797E3002AADA2 /* practicalpencil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = practicalpencil.png; sourceTree = "<group>"; };
+		668778F01677AB5E002AADA2 /* socialgogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = socialgogo.png; sourceTree = "<group>"; };
+		6694E53F1670EA080021B65D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		661242911666205900D4001D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6694E5401670EA080021B65D /* SystemConfiguration.framework in Frameworks */,
+				6612429D1666205900D4001D /* CoreGraphics.framework in Frameworks */,
+				661242991666205900D4001D /* UIKit.framework in Frameworks */,
+				6612429B1666205900D4001D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		661242B71666205900D4001D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				661242BD1666205900D4001D /* SenTestingKit.framework in Frameworks */,
+				661242BE1666205900D4001D /* UIKit.framework in Frameworks */,
+				661242BF1666205900D4001D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		661242891666205900D4001D = {
+			isa = PBXGroup;
+			children = (
+				6612429E1666205900D4001D /* GO!SocialMedia */,
+				661242C21666205900D4001D /* GO!SocialMediaTests */,
+				661242971666205900D4001D /* Frameworks */,
+				661242951666205900D4001D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		661242951666205900D4001D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				661242941666205900D4001D /* GO!SocialMedia.app */,
+				661242BB1666205900D4001D /* GO!SocialMediaTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		661242971666205900D4001D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				66307C3D16763CBB00C8C838 /* Parse.framework */,
+				6694E53F1670EA080021B65D /* SystemConfiguration.framework */,
+				661242981666205900D4001D /* UIKit.framework */,
+				6612429A1666205900D4001D /* Foundation.framework */,
+				6612429C1666205900D4001D /* CoreGraphics.framework */,
+				661242BC1666205900D4001D /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6612429E1666205900D4001D /* GO!SocialMedia */ = {
+			isa = PBXGroup;
+			children = (
+				661242A71666205900D4001D /* AppDelegate.h */,
+				661242A81666205900D4001D /* AppDelegate.m */,
+				661242B01666205900D4001D /* MainStoryboard.storyboard */,
+				661242B31666205900D4001D /* ViewController.h */,
+				661242B41666205900D4001D /* ViewController.m */,
+				661242D61666230400D4001D /* ViewControllertechnical.h */,
+				661242D71666230400D4001D /* ViewControllertechnical.m */,
+				661242D91666232D00D4001D /* ViewControllerconceptual.h */,
+				661242DA1666232D00D4001D /* ViewControllerconceptual.m */,
+				661242DC1666234100D4001D /* ViewControllerpractical.h */,
+				661242DD1666234100D4001D /* ViewControllerpractical.m */,
+				661242D3166622E300D4001D /* ViewControllersocialgo.h */,
+				661242D4166622E300D4001D /* ViewControllersocialgo.m */,
+				6612429F1666205900D4001D /* Supporting Files */,
+			);
+			path = "GO!SocialMedia";
+			sourceTree = "<group>";
+		};
+		6612429F1666205900D4001D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				661242A01666205900D4001D /* GO!SocialMedia-Info.plist */,
+				661242A11666205900D4001D /* InfoPlist.strings */,
+				661242A41666205900D4001D /* main.m */,
+				661242A61666205900D4001D /* GO!SocialMedia-Prefix.pch */,
+				661242AA1666205900D4001D /* Default.png */,
+				661242AC1666205900D4001D /* Default@2x.png */,
+				661242AE1666205900D4001D /* Default-568h@2x.png */,
+				661242DF1666479000D4001D /* appback.png */,
+				661242E3166658FA00D4001D /* pen.png */,
+				661242E51666590100D4001D /* conceptual.png */,
+				661242E71666590B00D4001D /* technical.png */,
+				661242E91666591400D4001D /* socialgo.png */,
+				668778DA167769B1002AADA2 /* low_contrast_linen_@2X.png */,
+				668778E416779179002AADA2 /* technicalrobot.png */,
+				668778E61677931C002AADA2 /* practicallightbulb.png */,
+				668778E8167797E3002AADA2 /* practicalpencil.png */,
+				668778F01677AB5E002AADA2 /* socialgogo.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		661242C21666205900D4001D /* GO!SocialMediaTests */ = {
+			isa = PBXGroup;
+			children = (
+				661242C81666205900D4001D /* GO_SocialMediaTests.h */,
+				661242C91666205900D4001D /* GO_SocialMediaTests.m */,
+				661242C31666205900D4001D /* Supporting Files */,
+			);
+			path = "GO!SocialMediaTests";
+			sourceTree = "<group>";
+		};
+		661242C31666205900D4001D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				661242C41666205900D4001D /* GO!SocialMediaTests-Info.plist */,
+				661242C51666205900D4001D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		661242931666205900D4001D /* GO!SocialMedia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 661242CD1666205900D4001D /* Build configuration list for PBXNativeTarget "GO!SocialMedia" */;
+			buildPhases = (
+				661242901666205900D4001D /* Sources */,
+				661242911666205900D4001D /* Frameworks */,
+				661242921666205900D4001D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GO!SocialMedia";
+			productName = "GO!SocialMedia";
+			productReference = 661242941666205900D4001D /* GO!SocialMedia.app */;
+			productType = "com.apple.product-type.application";
+		};
+		661242BA1666205900D4001D /* GO!SocialMediaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 661242D01666205900D4001D /* Build configuration list for PBXNativeTarget "GO!SocialMediaTests" */;
+			buildPhases = (
+				661242B61666205900D4001D /* Sources */,
+				661242B71666205900D4001D /* Frameworks */,
+				661242B81666205900D4001D /* Resources */,
+				661242B91666205900D4001D /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				661242C11666205900D4001D /* PBXTargetDependency */,
+			);
+			name = "GO!SocialMediaTests";
+			productName = "GO!SocialMediaTests";
+			productReference = 661242BB1666205900D4001D /* GO!SocialMediaTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6612428B1666205900D4001D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = SocialGO;
+			};
+			buildConfigurationList = 6612428E1666205900D4001D /* Build configuration list for PBXProject "GO!SocialMedia" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 661242891666205900D4001D;
+			productRefGroup = 661242951666205900D4001D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				661242931666205900D4001D /* GO!SocialMedia */,
+				661242BA1666205900D4001D /* GO!SocialMediaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		661242921666205900D4001D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				661242A31666205900D4001D /* InfoPlist.strings in Resources */,
+				661242AB1666205900D4001D /* Default.png in Resources */,
+				661242AD1666205900D4001D /* Default@2x.png in Resources */,
+				661242AF1666205900D4001D /* Default-568h@2x.png in Resources */,
+				661242B21666205900D4001D /* MainStoryboard.storyboard in Resources */,
+				661242E01666479000D4001D /* appback.png in Resources */,
+				661242E4166658FA00D4001D /* pen.png in Resources */,
+				661242E61666590100D4001D /* conceptual.png in Resources */,
+				661242E81666590B00D4001D /* technical.png in Resources */,
+				661242EA1666591400D4001D /* socialgo.png in Resources */,
+				668778DB167769B1002AADA2 /* low_contrast_linen_@2X.png in Resources */,
+				668778E516779179002AADA2 /* technicalrobot.png in Resources */,
+				668778E71677931C002AADA2 /* practicallightbulb.png in Resources */,
+				668778E9167797E4002AADA2 /* practicalpencil.png in Resources */,
+				668778F11677AB5E002AADA2 /* socialgogo.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		661242B81666205900D4001D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				661242C71666205900D4001D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		661242B91666205900D4001D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		661242901666205900D4001D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				661242A51666205900D4001D /* main.m in Sources */,
+				661242A91666205900D4001D /* AppDelegate.m in Sources */,
+				661242B51666205900D4001D /* ViewController.m in Sources */,
+				661242D5166622E300D4001D /* ViewControllersocialgo.m in Sources */,
+				661242D81666230400D4001D /* ViewControllertechnical.m in Sources */,
+				661242DB1666232D00D4001D /* ViewControllerconceptual.m in Sources */,
+				661242DE1666234100D4001D /* ViewControllerpractical.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		661242B61666205900D4001D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				661242CA1666205900D4001D /* GO_SocialMediaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		661242C11666205900D4001D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 661242931666205900D4001D /* GO!SocialMedia */;
+			targetProxy = 661242C01666205900D4001D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		661242A11666205900D4001D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				661242A21666205900D4001D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		661242B01666205900D4001D /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				661242B11666205900D4001D /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		661242C51666205900D4001D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				661242C61666205900D4001D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		661242CB1666205900D4001D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		661242CC1666205900D4001D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		661242CE1666205900D4001D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GO!SocialMedia/GO!SocialMedia-Prefix.pch";
+				INFOPLIST_FILE = "GO!SocialMedia/GO!SocialMedia-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		661242CF1666205900D4001D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GO!SocialMedia/GO!SocialMedia-Prefix.pch";
+				INFOPLIST_FILE = "GO!SocialMedia/GO!SocialMedia-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		661242D11666205900D4001D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GO!SocialMedia.app/GO!SocialMedia";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GO!SocialMedia/GO!SocialMedia-Prefix.pch";
+				INFOPLIST_FILE = "GO!SocialMediaTests/GO!SocialMediaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		661242D21666205900D4001D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GO!SocialMedia.app/GO!SocialMedia";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GO!SocialMedia/GO!SocialMedia-Prefix.pch";
+				INFOPLIST_FILE = "GO!SocialMediaTests/GO!SocialMediaTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6612428E1666205900D4001D /* Build configuration list for PBXProject "GO!SocialMedia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				661242CB1666205900D4001D /* Debug */,
+				661242CC1666205900D4001D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		661242CD1666205900D4001D /* Build configuration list for PBXNativeTarget "GO!SocialMedia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				661242CE1666205900D4001D /* Debug */,
+				661242CF1666205900D4001D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		661242D01666205900D4001D /* Build configuration list for PBXNativeTarget "GO!SocialMediaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				661242D11666205900D4001D /* Debug */,
+				661242D21666205900D4001D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6612428B1666205900D4001D /* Project object */;
+}
